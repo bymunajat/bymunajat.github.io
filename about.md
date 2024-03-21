@@ -4,7 +4,7 @@ title: About
 ---
 
 
-![Images](/assets/images/foto_facebook.jpg) 
+![Images](/assets/images/favicon/foto_facebook.jpg) 
 
 Welcome to my about section! I’m thrilled to introduce myself and discuss my skills and experiences as a web developer.
 
