@@ -17,7 +17,7 @@ project_entries:
     url: overview-post
     desc: Projects are shown in card layout
 
-  - title: enesis
+  - title: Enesis
     url: overview-post
     desc: You can control visibility from _config.yml file
 
