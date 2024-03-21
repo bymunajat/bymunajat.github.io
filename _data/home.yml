@@ -1,10 +1,10 @@
 navbar_entries:
-  - title: About
+  - title: <strong>About</strong>
     url: about
 
-  - title: Blog
+  - title: <strong>Blog</strong>
     url: blog
-
+    
   # - title: website
   #   url: https://www.abhinav.co
 
