@@ -10,16 +10,16 @@ navbar_entries:
 
 project_entries:
   - title: Saguling
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    url: https://github.com/bymunajat
+    desc: Building a website information system using Leaflet and GDAL.
 
-  - title: Radboox
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: RadbooX
+    url: https://radboox.com
+    desc: creates its interface using React.js and integrates with APIs.
 
   - title: Enesis
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+    url: https://eis.enesis.com/login
+    desc: Building a warehouse feature using Laravel 8 and SOAP API..
 
   # - title: Project 4
   #   url: overview-post
@@ -59,6 +59,9 @@ footer_entries:
 
   - title: Linkedin
     url: https://linkedin.com/in/bymunajat
+
+  - title: Facebook
+    url: https://facebook.com/bymunajat
 
   - title: Github
     url: https://github.com/bymunajat
