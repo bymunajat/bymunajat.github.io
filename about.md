@@ -3,6 +3,9 @@ layout: post
 title: About
 ---
 
+
+![Images](/assets/images/foto_facebook.jpg) 
+
 Welcome to my about section! I’m thrilled to introduce myself and discuss my skills and experiences as a web developer.
 
 Specializing in Laravel, React.js, and PHP frameworks, I've crafted robust web solutions for diverse projects. Committed to crafting top-notch web apps, I utilize Laravel for backend prowess and React.js for dynamic, user-friendly interfaces.
