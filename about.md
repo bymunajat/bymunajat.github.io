@@ -4,7 +4,7 @@ title: About
 ---
 
 
-![Images](/assets/images/favicon/foto_facebook.jpg) 
+<img src="/assets/images/favicon/foto_facebook.jpg" alt="Images" width="300">
 
 Welcome to my about section! I’m thrilled to introduce myself and discuss my skills and experiences as a web developer.
 
