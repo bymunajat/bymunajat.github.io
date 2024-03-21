@@ -54,7 +54,7 @@ project_entries:
 #     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: Follow Me =>
+  # - title: Follow Me =>
   #   url: https://www.abhinav.co
 
   - title: Linkedin
