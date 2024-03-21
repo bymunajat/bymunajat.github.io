@@ -54,14 +54,17 @@ project_entries:
 #     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  # - title: abhinav's homepage
+  - title: Follow Me =>
   #   url: https://www.abhinav.co
 
-  - title: twitter
+  - title: Linkedin
     url: https://linkedin.com/in/bymunajat
 
-  - title: github
+  - title: Github
     url: https://github.com/bymunajat
+
+  - title: Twitter
+    url: https://twitter.com/bymunajat
 
   # - title: feed
   #   url: feed.xml
