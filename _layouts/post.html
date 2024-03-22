@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<head>
+    <!-- Meta tags -->
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:image" content="{{ page.image | absolute_url }}" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 20 }}" />
+    <!-- Seluruh tag head lainnya -->
+</head>
+
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
