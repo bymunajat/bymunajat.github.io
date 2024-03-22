@@ -2,7 +2,7 @@ navbar_entries:
   - title: About Me
     url: about
 
-  - title: Blog
+  - title: Notes
     url: blog
 
   # - title: website
