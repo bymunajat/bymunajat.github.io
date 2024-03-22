@@ -1,17 +1,18 @@
 ---
 layout: post
-title: About
+title: About Me
 ---
 
 
 <img src="/assets/images/favicon/foto_facebook.jpg" alt="Images" width="300">
 
-Welcome to my about section! I’m thrilled to introduce myself and discuss my skills and experiences as a web developer.
 
-Specializing in Laravel, React.js, and PHP frameworks, I've crafted robust web solutions for diverse projects. Committed to crafting top-notch web apps, I utilize Laravel for backend prowess and React.js for dynamic, user-friendly interfaces.
+Welcome to my about section!
 
-My proficiency in various PHP frameworks, notably Laravel, has led to stable, scalable, and easily maintainable web apps. I believe deep comprehension of programming languages and frameworks is essential for effective solutions.
+I’m thrilled to introduce myself and discuss my skills and experiences as a web developer.
 
-Beyond technical prowess, I prioritize teamwork, seeing collaboration as vital to project success. I thrive in structured environments, employing Scrum methodology for focus, adaptability, and productivity.
+As a web developer who embarked on my career journey in 2022, I specialize in Laravel, React.js, and PHP frameworks, crafting robust solutions for diverse projects. Proficient in Laravel, I ensure stable, scalable, and maintainable web apps. Emphasizing teamwork and structured environments, I thrive using Scrum methodology for productivity.
 
-I'm eager to further hone my skills and contribute to exciting future projects. Thank you for visiting my profile, and feel free to reach out for inquiries or collaboration opportunities!
+I’m eager to further hone my skills and contribute to exciting future projects. Thank you for visiting my profile, and feel free to reach out for inquiries or collaboration opportunities!
+
+Contact me via email at [bymunajat@gmail.com](mailto:bymunajat@gmail.com) and [Download CV](/assets/pdf/Munajat-WebDeveloper-v3.pdf) to get in touch.
