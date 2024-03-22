@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: Saguling
-    url: https://github.com/bymunajat
+    url: saguling
     desc: Building a Geographic Information System (GIS) website using Leaflet and GDAL.
 
   - title: RadbooX
