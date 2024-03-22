@@ -4,6 +4,8 @@ url: https://www.abhinavsaxena.com/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
   Hello, I'm a web full stack developer. I have a strong passion for learning and constantly exploring new technologies. I love problem-solving and sharing knowledge with the StackOverflow community.
 
+notes: Notes
+
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
