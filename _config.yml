@@ -2,7 +2,7 @@ title: Munajat, S.T
 author: Munajat
 url: https://www.abhinavsaxena.com/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Hello, I'm a full stack developer. I have a strong passion for learning and constantly exploring new technologies. I love problem-solving and sharing knowledge with the StackOverflow community.
+  Hello, I'm a web full stack developer. I have a strong passion for learning and constantly exploring new technologies. I love problem-solving and sharing knowledge with the StackOverflow community.
 
 permalink: /:slug
 
@@ -18,7 +18,7 @@ remote_theme: abhinavs/moonwalk
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "home.." # customize text for homepage link in post layout
+  back_home_text: "Back.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
