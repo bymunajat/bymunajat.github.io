@@ -14,7 +14,7 @@ project_entries:
     desc: Building a Geographic Information System (GIS) website using Leaflet and GDAL.
 
   - title: RadbooX
-    url: https://radboox.com
+    url: radboox
     desc: Creating a user interface using React.js and API integration.
 
   - title: Enesis
