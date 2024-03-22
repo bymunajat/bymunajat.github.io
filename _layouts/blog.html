@@ -5,7 +5,8 @@ layout: default
 
 <header>
   <meta property="og:title" content="{{ site.title }}" />
-  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/imgblog/{{ site.thumbnail }}" />
   <h1>{{ site.title }}</h1>
 </header>
 
