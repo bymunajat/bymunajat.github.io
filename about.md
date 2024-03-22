@@ -9,10 +9,10 @@ title: About Me
 
 Welcome to my about section!
 
-I’m thrilled to introduce myself and discuss my skills and experiences as a web developer.
+I am excited to introduce myself and delve into my skills and experiences as a web developer.
 
-As a web developer who embarked on my career journey in 2022, I specialize in Laravel, React.js, and PHP frameworks, crafting robust solutions for diverse projects. Proficient in Laravel, I ensure stable, scalable, and maintainable web apps. Emphasizing teamwork and structured environments, I thrive using Scrum methodology for productivity.
+Embarking on my career journey in 2022, I specialize in Laravel, React.js, and PHP frameworks, creating robust solutions for a variety of projects. Proficient in Laravel, I prioritize stability, scalability, and maintainability in web applications. I thrive in structured environments and value teamwork, utilizing Scrum methodology for enhanced productivity.
 
-I’m eager to further hone my skills and contribute to exciting future projects. Thank you for visiting my profile, and feel free to reach out for inquiries or collaboration opportunities!
+I am eager to further refine my skills and contribute to exciting future projects. Thank you for visiting my profile, and please feel free to reach out for inquiries or collaboration opportunities!
 
 Contact me via email at [bymunajat@gmail.com](mailto:bymunajat@gmail.com) and [Download CV](/assets/pdf/Munajat-WebDeveloper-v3.pdf) to get in touch.
