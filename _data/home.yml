@@ -18,13 +18,18 @@ project_entries:
     url: https://www.radboox.com/
     desc: Laravel and ReactJS Powered Billing Solution
 
-  - title: enigma enesis
-    url: https://enigma.enesis.com/login
-    desc: Distributor Sales Reporting System Leveraging Laravel and SOAP API Integration
+  - title: KlinikPHP
+    url: https://github.com/bymunajat/KlinikPHP
+    desc: A PHP and MySQL-based clinic management system with multi-user login, patient registration, and prescription management features.
+   
+  - title: rental-laravel
+    url: https://github.com/bymunajat/rental-laravel
+    desc: Application for motorbike rental management using Laravel.
 
-  - title: erp lbn
-    url: https://erp.lbn.co.id/manage/session/create
-    desc:  Utilizing Latest Laravel with Filament UI for Streamlined Operations.
+  - title: wastephp
+    url: https://github.com/bymunajat/wastephp
+    desc: PHP and MySQL-based web application for managing waste banks with multi-user login and comprehensive waste management features.
+
 
   # - title: Project 5
   #   url: overview-post
@@ -35,7 +40,16 @@ project_entries:
   #   url: overview-post
   #   desc: It also has a scalable vertical list (in case you need it)
 
-# old_project_entries:
+old_project_entries:
+
+  - title: enigma enesis
+    url: https://enigma.enesis.com/login
+    desc: Distributor Sales Reporting System Leveraging Laravel and SOAP API Integration
+
+  - title: erp lbn
+    url: https://erp.lbn.co.id/manage/session/create
+    desc:  Utilizing Latest Laravel with Filament UI for Streamlined Operations.
+
 #   - title: Soopr
 #     url: https://www.soopr.co
 #     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
@@ -54,8 +68,8 @@ project_entries:
 #     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: FACEBOOK
-    url: https://facebook.com/bymunajat
+  # - title: FACEBOOK
+  #   url: https://facebook.com/bymunajat
 
   # - title: LINKEDIN
   #   url: https://linkedin.com/in/bymunajat
