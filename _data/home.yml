@@ -70,8 +70,8 @@ footer_entries:
   # - title: FACEBOOK
   #   url: https://facebook.com/bymunajat
 
-  # - title: LINKEDIN
-  #   url: https://linkedin.com/in/bymunajat
+  - title: LINKEDIN
+    url: https://linkedin.com/in/bymunajat
 
   - title: GITHUB
     url: https://github.com/bymunajat
