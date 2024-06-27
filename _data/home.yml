@@ -41,7 +41,6 @@ project_entries:
   #   desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-
   - title: enigma enesis
     url: https://enigma.enesis.com/login
     desc: Distributor Sales Reporting System Leveraging Laravel and SOAP API Integration
