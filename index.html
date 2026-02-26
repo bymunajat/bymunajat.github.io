@@ -1,18 +1,438 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ryan Walker Portfolio - PrebuiltUI</title>
-    <meta name="description"
-        content="Ryan Walker's portfolio built by PrebuiltUI. A free and open-source UI template for React.js, Next.js and Tailwind CSS.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Munajat Amuri | IT Web Developer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#6366f1',
+            secondary: '#22c55e'
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
-<body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-</body>
+<body class="min-h-screen bg-slate-950 text-slate-50 antialiased">
+  <!-- BACKGROUND DECORATION -->
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div
+      class="absolute -top-40 -left-32 h-80 w-80 rounded-full bg-primary/30 blur-3xl opacity-60">
+    </div>
+    <div
+      class="absolute -bottom-40 -right-32 h-96 w-96 rounded-full bg-emerald-500/20 blur-3xl opacity-70">
+    </div>
+  </div>
 
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-20 border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <a href="#home" class="flex items-center gap-2">
+        <div
+          class="flex h-9 w-9 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-secondary text-sm font-semibold shadow-lg shadow-primary/40">
+          MA
+        </div>
+        <div class="leading-tight">
+          <p class="text-xs uppercase tracking-[0.25em] text-slate-400">Portfolio</p>
+          <p class="text-sm font-semibold">Munajat Amuri</p>
+        </div>
+      </a>
+
+      <div class="hidden items-center gap-6 text-sm font-medium text-slate-300 md:flex">
+        <a href="#experience" class="hover:text-white hover:underline underline-offset-4">Experience</a>
+        <a href="#projects" class="hover:text-white hover:underline underline-offset-4">Projects</a>
+        <a href="#skills" class="hover:text-white hover:underline underline-offset-4">Skills</a>
+        <a href="#contact" class="hover:text-white hover:underline underline-offset-4">Contact</a>
+        <a href="CV_MUNAJAT_IT DEVELOPER.pdf" download
+          class="rounded-full bg-white text-slate-900 px-4 py-2 text-xs font-semibold shadow-sm hover:bg-slate-100">
+          Download CV
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-6">
+    <!-- HERO -->
+    <section id="home" class="py-16 md:py-24">
+      <div class="grid items-center gap-12 md:grid-cols-[1.4fr,1fr]">
+        <!-- TEXT -->
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200 shadow-sm backdrop-blur">
+            <span class="inline-flex h-2 w-2 rounded-full bg-emerald-400"></span>
+            <span>Available for Full‑Time · IT Web Developer / Fullstack</span>
+          </div>
+
+          <h1 class="mt-6 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+            Munajat Amuri, S.T.
+          </h1>
+          <p class="mt-4 text-sm leading-relaxed text-slate-300 sm:text-base">
+            Fullstack Web Developer sejak 2021 yang fokus membangun
+            <span class="font-semibold text-emerald-400">aplikasi web siap produksi</span>,
+            sistem internal perusahaan, dan solusi IT yang clean & scalable
+            berbasis <span class="font-semibold text-indigo-300">Laravel & Tailwind CSS</span>.
+          </p>
+
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a href="https://wa.me/6287881147945" target="_blank"
+              class="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/40 transition hover:translate-y-0.5 hover:shadow-xl">
+              <span>Let's Discuss Your Project</span>
+              <span
+                class="flex h-5 w-5 items-center justify-center rounded-full bg-white/15 text-[11px] group-hover:translate-x-0.5 transition">
+                →
+              </span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/bymunajat/" target="_blank"
+              class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-slate-200 hover:bg-white/10">
+              LinkedIn
+            </a>
+
+            <a href="CV_MUNAJAT_IT DEVELOPER.pdf" download
+              class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-slate-200 hover:bg-white/10">
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <!-- HERO PHOTO CARD + ANIMATED BACKGROUND -->
+        <div class="relative mx-auto flex w-full max-w-xs items-center justify-center">
+          <!-- Animated background behind photo -->
+          <div
+            class="pointer-events-none absolute -inset-4 -z-10 rounded-[2.5rem] bg-gradient-to-br from-primary/60 via-slate-900 to-emerald-500/70 opacity-80 blur-2xl animate-[spin_22s_linear_infinite]">
+          </div>
+          <div
+            class="pointer-events-none absolute -right-6 -bottom-6 -z-20 h-20 w-20 rounded-full bg-primary/40 blur-2xl">
+          </div>
+
+          <div class="overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900 shadow-xl">
+            <img
+              src="munajat.jpg"
+              alt="Foto Munajat Amuri"
+              class="w-full h-auto" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section id="experience" class="py-12 md:py-16">
+      <div class="flex items-center justify-between gap-4">
+        <div>
+          <h2 class="text-lg font-semibold tracking-tight text-white sm:text-2xl">
+            Professional Experience
+          </h2>
+          <p class="mt-1 text-xs text-slate-400 sm:text-sm">
+            Ringkasan pengalaman kerja sebagai IT / Web Developer.
+          </p>
+        </div>
+        <span
+          class="hidden rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-slate-300 sm:inline-flex">
+          2021 – 2026 · 4+ years
+        </span>
+      </div>
+
+      <div class="mt-10 grid gap-8 md:grid-cols-[1.2fr,1fr]">
+        <!-- TIMELINE -->
+        <div class="relative border-l border-white/10 pl-6 space-y-6">
+          <!-- 2024 - Present -->
+          <article class="relative">
+            <span
+              class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-slate-950 bg-emerald-400 shadow-[0_0_0_4px] shadow-emerald-400/20"></span>
+            <h3 class="ml-2 text-sm font-semibold text-white sm:text-base">
+              IT Consultant / Freelance Web Developer
+            </h3>
+            <p class="text-[11px] text-slate-400 sm:text-xs mb-1">2024 – Present</p>
+            <p class="mt-1 text-xs leading-relaxed text-slate-300 sm:text-sm">
+              Menangani pengembangan sistem dan aplikasi web berbasis Laravel, mulai dari analisis kebutuhan,
+              pengembangan frontend & backend, hingga implementasi solusi yang siap digunakan secara operasional.
+            </p>
+            <ul class="mt-2 list-disc pl-4 text-xs text-slate-300 space-y-0.5 sm:text-sm">
+              <li>Laravel · REST API · Tailwind CSS</li>
+              <li>Web apps & sistem internal untuk klien</li>
+            </ul>
+          </article>
+
+          <!-- 2024 -->
+          <article class="relative">
+            <span
+              class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-slate-950 bg-primary shadow-[0_0_0_4px] shadow-primary/20"></span>
+            <h3 class="ml-2 text-sm font-semibold text-white sm:text-base">
+              IT Consultant – PT Spektra Dinamika Survey
+            </h3>
+            <p class="text-[11px] text-slate-400 sm:text-xs mb-1">2024</p>
+            <p class="mt-1 text-xs leading-relaxed text-slate-300 sm:text-sm">
+              Mengembangkan aplikasi GIS (Geographic Information System) untuk klien BUMN PT Jasa Tirta II
+              sebagai sistem monitoring, visualisasi, dan pengelolaan data operasional berbasis peta.
+            </p>
+            <ul class="mt-2 list-disc pl-4 text-xs text-slate-300 space-y-0.5 sm:text-sm">
+              <li>GIS Monitoring System untuk PT Jasa Tirta II (BUMN)</li>
+              <li>Dashboard & visualisasi data operasional</li>
+            </ul>
+          </article>
+
+          <!-- 2022 - 2023 -->
+          <article class="relative">
+            <span
+              class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-slate-950 bg-sky-400 shadow-[0_0_0_4px] shadow-sky-400/20"></span>
+            <h3 class="ml-2 text-sm font-semibold text-white sm:text-base">
+              Fullstack Web Developer – SSR.co.id (Radboox)
+            </h3>
+            <p class="text-[11px] text-slate-400 sm:text-xs mb-1">2022 – 2023</p>
+            <p class="mt-1 text-xs leading-relaxed text-slate-300 sm:text-sm">
+              Terlibat dalam pengembangan sistem billing internal perusahaan,
+              dengan fokus pada pengembangan frontend serta integrasi dengan backend
+              untuk menjaga stabilitas aplikasi dan kelancaran proses penagihan.
+            </p>
+            <ul class="mt-2 list-disc pl-4 text-xs text-slate-300 space-y-0.5 sm:text-sm">
+              <li>Billing system internal & subscription</li>
+              <li>Laravel · MySQL · Integrasi API</li>
+            </ul>
+          </article>
+
+          <!-- 2021 - 2022 -->
+          <article class="relative">
+            <span
+              class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-slate-950 bg-slate-300 shadow-[0_0_0_4px] shadow-slate-400/20"></span>
+            <h3 class="ml-2 text-sm font-semibold text-white sm:text-base">
+              Junior Web Developer – PT Herlina Indah (Enesis Group)
+            </h3>
+            <p class="text-[11px] text-slate-400 sm:text-xs mb-1">2021 – 2022</p>
+            <p class="mt-1 text-xs leading-relaxed text-slate-300 sm:text-sm">
+              Mengembangkan aplikasi internal untuk manajemen gudang serta melakukan
+              integrasi sistem menggunakan SOAP API untuk koneksi dengan SAP,
+              mendukung digitalisasi dan integrasi data antar sistem internal perusahaan.
+            </p>
+            <ul class="mt-2 list-disc pl-4 text-xs text-slate-300 space-y-0.5 sm:text-sm">
+              <li>Aplikasi internal manajemen gudang</li>
+              <li>Integrasi SOAP API ke SAP</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- SUMMARY CARD -->
+        <aside
+          class="h-fit rounded-3xl border border-white/10 bg-white/5 p-5 text-xs text-slate-200 shadow-lg backdrop-blur sm:text-sm">
+          <p class="text-[11px] font-semibold uppercase tracking-[0.25em] text-slate-400">Summary</p>
+          <p class="mt-2 text-sm font-semibold text-white">
+            Fokus pada solusi web yang stabil, rapi, dan siap produksi.
+          </p>
+          <p class="mt-2 text-xs leading-relaxed text-slate-300 sm:text-sm">
+            Terbiasa bekerja dengan tim bisnis maupun teknis, menerjemahkan kebutuhan lapangan
+            menjadi sistem yang mudah digunakan dan mudah di-maintain.
+          </p>
+          <div class="mt-4 grid grid-cols-2 gap-3 text-[11px] sm:text-xs">
+            <div class="rounded-2xl border border-white/10 bg-slate-950/40 px-3 py-3">
+              <p class="text-slate-400">Tech Used</p>
+              <p class="mt-1 text-slate-100">
+                Laravel, PHP, MySQL, Tailwind, REST API, Git
+              </p>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-slate-950/40 px-3 py-3">
+              <p class="text-slate-400">Soft Skills</p>
+              <p class="mt-1 text-slate-100">
+                Problem Solving, Ownership, Communication
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-12 md:py-16">
+      <div class="flex items-center justify-between gap-4">
+        <div>
+          <h2 class="text-lg font-semibold tracking-tight text-white sm:text-2xl">
+            Selected Projects
+          </h2>
+          <p class="mt-1 text-xs text-slate-400 sm:text-sm">
+            Beberapa proyek yang merepresentasikan cara saya menyelesaikan masalah bisnis.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <!-- Project 1 -->
+        <article
+          class="group flex flex-col rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 p-5 shadow-xl shadow-primary/15 transition hover:-translate-y-1 hover:border-primary/50">
+          <div class="flex items-center justify-between gap-3">
+            <div>
+              <p class="text-xs uppercase tracking-[0.25em] text-emerald-300/90">
+                GIS Monitoring
+              </p>
+              <h3 class="mt-1 text-sm font-semibold text-white sm:text-base">
+                GIS Monitoring System – BUMN
+              </h3>
+            </div>
+            <span
+              class="inline-flex h-8 w-8 items-center justify-center rounded-2xl bg-emerald-500/15 text-xs text-emerald-300">
+              GIS
+            </span>
+          </div>
+          <p class="mt-3 text-xs leading-relaxed text-slate-300 sm:text-sm">
+            Sistem pemantauan data operasional dengan peta interaktif, filter dinamis,
+            dan dashboard KPI untuk membantu manajemen membuat keputusan lebih cepat.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-slate-300">
+            <span class="rounded-full bg-white/5 px-2.5 py-1">Laravel</span>
+            <span class="rounded-full bg-white/5 px-2.5 py-1">Leaflet / Map</span>
+            <span class="rounded-full bg-white/5 px-2.5 py-1">REST API</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article
+          class="group flex flex-col rounded-3xl border border-white/10 bg-gradient-to-br from-indigo-900 via-slate-950 to-slate-900 p-5 shadow-xl shadow-indigo-500/20 transition hover:-translate-y-1 hover:border-indigo-400/60">
+          <div class="flex items-center justify-between gap-3">
+            <div>
+              <p class="text-xs uppercase tracking-[0.25em] text-indigo-200/90">
+                Billing System
+              </p>
+              <h3 class="mt-1 text-sm font-semibold text-white sm:text-base">
+                Internal Billing & Subscription Platform
+              </h3>
+            </div>
+            <span
+              class="inline-flex h-8 w-8 items-center justify-center rounded-2xl bg-indigo-500/20 text-xs text-indigo-100">
+              $
+            </span>
+          </div>
+          <p class="mt-3 text-xs leading-relaxed text-slate-200 sm:text-sm">
+            Aplikasi penagihan internal yang mengelola paket layanan, invoice,
+            status pembayaran, hingga notifikasi otomatis ke customer.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-slate-200">
+            <span class="rounded-full bg-white/10 px-2.5 py-1">Laravel</span>
+            <span class="rounded-full bg-white/10 px-2.5 py-1">Blade</span>
+            <span class="rounded-full bg-white/10 px-2.5 py-1">MySQL</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article
+          class="group flex flex-col rounded-3xl border border-white/10 bg-gradient-to-br from-emerald-900 via-slate-950 to-slate-900 p-5 shadow-xl shadow-emerald-500/20 transition hover:-translate-y-1 hover:border-emerald-400/60">
+          <div class="flex items-center justify-between gap-3">
+            <div>
+              <p class="text-xs uppercase tracking-[0.25em] text-emerald-200/90">
+                Warehouse
+              </p>
+              <h3 class="mt-1 text-sm font-semibold text-white sm:text-base">
+                Warehouse Management & SAP Integration
+              </h3>
+            </div>
+            <span
+              class="inline-flex h-8 w-8 items-center justify-center rounded-2xl bg-emerald-500/15 text-xs text-emerald-100">
+              WMS
+            </span>
+          </div>
+          <p class="mt-3 text-xs leading-relaxed text-slate-200 sm:text-sm">
+            Aplikasi internal untuk manajemen stok dan pergerakan barang, terintegrasi
+            dengan SAP melalui SOAP API untuk sinkronisasi data real‑time.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-slate-200">
+            <span class="rounded-full bg-white/10 px-2.5 py-1">PHP</span>
+            <span class="rounded-full bg-white/10 px-2.5 py-1">SOAP API</span>
+            <span class="rounded-full bg-white/10 px-2.5 py-1">SAP</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-12 md:py-16">
+      <div class="flex items-center justify-between gap-4">
+        <div>
+          <h2 class="text-lg font-semibold tracking-tight text-white sm:text-2xl">
+            Tech Stack & Capabilities
+          </h2>
+          <p class="mt-1 text-xs text-slate-400 sm:text-sm">
+            Keterampilan utama yang biasa saya gunakan untuk mengerjakan proyek.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
+          <p class="text-[11px] uppercase tracking-[0.25em] text-slate-400">Backend</p>
+          <p class="mt-2 text-sm font-semibold text-white">API & Business Logic</p>
+          <p class="mt-2 text-xs leading-relaxed text-slate-300">
+            Backend yang rapi, mudah di‑maintain, dengan struktur kode
+            yang jelas dan dokumentasi endpoint.
+          </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-200">
+            <li>Laravel, PHP</li>
+            <li>REST API, Authentication, Authorization</li>
+            <li>MySQL, PostgreSQL, Query Optimization</li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
+          <p class="text-[11px] uppercase tracking-[0.25em] text-slate-400">Frontend</p>
+          <p class="mt-2 text-sm font-semibold text-white">Modern Web Interface</p>
+          <p class="mt-2 text-xs leading-relaxed text-slate-300">
+            UI yang clean, responsif, dan enak dilihat untuk pengguna harian.
+          </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-200">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Tailwind CSS, Responsive Layout</li>
+            <li>Component‑based thinking</li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
+          <p class="text-[11px] uppercase tracking-[0.25em] text-slate-400">Infrastructure</p>
+          <p class="mt-2 text-sm font-semibold text-white">Deployment & Maintenance</p>
+          <p class="mt-2 text-xs leading-relaxed text-slate-300">
+            Menjaga aplikasi tetap stabil di lingkungan produksi dan mudah di‑deploy.
+          </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-200">
+            <li>Linux Server, Basic Networking</li>
+            <li>Git, GitHub / GitLab Workflow</li>
+            <li>Environment & configuration management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section id="contact" class="py-16 md:py-20">
+      <div
+        class="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-r from-primary via-indigo-600 to-emerald-500 px-6 py-10 text-center text-slate-50 shadow-2xl">
+        <div
+          class="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-white/10 blur-3xl">
+        </div>
+        <h2 class="text-xl font-semibold tracking-tight sm:text-2xl">
+          Open for Full‑Time Opportunity & Serious Project Collaboration
+        </h2>
+        <p class="mt-3 text-xs leading-relaxed text-indigo-50/90 sm:text-sm max-w-xl mx-auto">
+          Jika Anda mencari developer yang bisa berdiskusi langsung dengan tim bisnis,
+          memahami kebutuhan di lapangan, dan menerjemahkannya menjadi sistem yang stabil,
+          saya dengan senang hati bisa membantu.
+        </p>
+
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-3 text-sm">
+          <a href="https://wa.me/6287881147945" target="_blank"
+            class="inline-flex items-center gap-2 rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-950/50 hover:bg-slate-900">
+            Contact via WhatsApp
+          </a>
+          <a href="mailto:munajat@example.com"
+            class="inline-flex items-center gap-2 rounded-full border border-white/40 bg-white/10 px-5 py-3 text-sm font-medium">
+            Email Me
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 py-6 text-center text-[11px] text-slate-500">
+    © 2026 Munajat Amuri · Built with Laravel mindset & Tailwind CSS
+  </footer>
+</body>
 </html>
